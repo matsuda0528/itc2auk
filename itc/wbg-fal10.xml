@@ -1,6 +1,3 @@
-﻿<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE problem PUBLIC "-//ITC 2019//DTD Problem Format/EN" "http://www.itc2019.org/competition-format.dtd">
-
 <problem name="wbg-fal10" nrDays="7" slotsPerDay="288" nrWeeks="16">
   <optimization time="1" room="1" distribution="10" student="10"/>
   <rooms>
