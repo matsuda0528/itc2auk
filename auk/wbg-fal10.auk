@@ -627,248 +627,248 @@ lecture '150' do
   period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
 end
 SameAttendees do
-  lecture 1, 31, 32, 37, 38, 39, 
+  lecture 1, 31, 32, 37, 38, 39
 end
 SameAttendees do
-  lecture 3, 4, 5, 28, 29, 30, 
+  lecture 3, 4, 5, 28, 29, 30
 end
 SameAttendees do
-  lecture 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 
+  lecture 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51
 end
 SameAttendees do
-  lecture 40, 37, 
+  lecture 40, 37
 end
 SameAttendees do
-  lecture 41, 37, 
+  lecture 41, 37
 end
 SameAttendees do
-  lecture 42, 37, 
+  lecture 42, 37
 end
 SameAttendees do
-  lecture 43, 37, 
+  lecture 43, 37
 end
 SameAttendees do
-  lecture 44, 38, 
+  lecture 44, 38
 end
 SameAttendees do
-  lecture 45, 38, 
+  lecture 45, 38
 end
 SameAttendees do
-  lecture 46, 38, 
+  lecture 46, 38
 end
 SameAttendees do
-  lecture 47, 38, 
+  lecture 47, 38
 end
 SameAttendees do
-  lecture 48, 39, 
+  lecture 48, 39
 end
 SameAttendees do
-  lecture 49, 39, 
+  lecture 49, 39
 end
 SameAttendees do
-  lecture 50, 39, 
+  lecture 50, 39
 end
 SameAttendees do
-  lecture 51, 39, 
+  lecture 51, 39
 end
 SameAttendees do
-  lecture 67, 55, 52, 
+  lecture 67, 55, 52
 end
 SameAttendees do
-  lecture 68, 56, 52, 
+  lecture 68, 56, 52
 end
 SameAttendees do
-  lecture 69, 57, 52, 
+  lecture 69, 57, 52
 end
 SameAttendees do
-  lecture 70, 58, 52, 
+  lecture 70, 58, 52
 end
 SameAttendees do
-  lecture 71, 59, 53, 
+  lecture 71, 59, 53
 end
 SameAttendees do
-  lecture 72, 60, 53, 
+  lecture 72, 60, 53
 end
 SameAttendees do
-  lecture 73, 61, 53, 
+  lecture 73, 61, 53
 end
 SameAttendees do
-  lecture 74, 62, 53, 
+  lecture 74, 62, 53
 end
 SameAttendees do
-  lecture 75, 63, 54, 
+  lecture 75, 63, 54
 end
 SameAttendees do
-  lecture 76, 64, 54, 
+  lecture 76, 64, 54
 end
 SameAttendees do
-  lecture 77, 65, 54, 
+  lecture 77, 65, 54
 end
 SameAttendees do
-  lecture 78, 66, 54, 
+  lecture 78, 66, 54
 end
 SameAttendees do
-  lecture 99, 89, 
+  lecture 99, 89
 end
 SameAttendees do
-  lecture 100, 90, 
+  lecture 100, 90
 end
 SameAttendees do
-  lecture 101, 91, 
+  lecture 101, 91
 end
 SameAttendees do
-  lecture 102, 92, 
+  lecture 102, 92
 end
 SameAttendees do
-  lecture 103, 93, 
+  lecture 103, 93
 end
 SameAttendees do
-  lecture 104, 94, 
+  lecture 104, 94
 end
 SameAttendees do
-  lecture 105, 95, 
+  lecture 105, 95
 end
 SameAttendees do
-  lecture 106, 96, 
+  lecture 106, 96
 end
 SameAttendees do
-  lecture 107, 97, 
+  lecture 107, 97
 end
 SameAttendees do
-  lecture 108, 98, 
+  lecture 108, 98
 end
 SameAttendees do
-  lecture 110, 109, 
+  lecture 110, 109
 end
 SameAttendees do
-  lecture 111, 109, 
+  lecture 111, 109
 end
 SameAttendees do
-  lecture 112, 109, 
+  lecture 112, 109
 end
 SameAttendees do
-  lecture 115, 113, 
+  lecture 115, 113
 end
 SameAttendees do
-  lecture 116, 113, 
+  lecture 116, 113
 end
 SameAttendees do
-  lecture 117, 114, 
+  lecture 117, 114
 end
 SameAttendees do
-  lecture 118, 114, 
+  lecture 118, 114
 end
 SameAttendees do
-  lecture 123, 122, 
+  lecture 123, 122
 end
 SameAttendees do
-  lecture 124, 122, 
+  lecture 124, 122
 end
 SameAttendees do
-  lecture 125, 122, 
+  lecture 125, 122
 end
 SameAttendees do
-  lecture 135, 130, 128, 
+  lecture 135, 130, 128
 end
 SameAttendees do
-  lecture 136, 131, 128, 
+  lecture 136, 131, 128
 end
 SameAttendees do
-  lecture 137, 132, 129, 
+  lecture 137, 132, 129
 end
 SameAttendees do
-  lecture 138, 133, 129, 
+  lecture 138, 133, 129
 end
 SameAttendees do
-  lecture 139, 134, 129, 
+  lecture 139, 134, 129
 end
 SameAttendees do
-  lecture 147, 145, 
+  lecture 147, 145
 end
 SameAttendees do
-  lecture 148, 145, 
+  lecture 148, 145
 end
 SameAttendees do
-  lecture 149, 146, 
+  lecture 149, 146
 end
 SameAttendees do
-  lecture 150, 146, 
+  lecture 150, 146
 end
 NotOverlap do
-  lecture 139, 137, 135, 138, 136, 
+  lecture 139, 137, 135, 138, 136
 end
 NotOverlap do
-  lecture 33, 34, 35, 36, 
+  lecture 33, 34, 35, 36
 end
 NotOverlap do
-  lecture 140, 141, 
+  lecture 140, 141
 end
 NotOverlap do
-  lecture 31, 32, 
+  lecture 31, 32
 end
 NotOverlap do
-  lecture 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 
+  lecture 89, 90, 91, 92, 93, 94, 95, 96, 97, 98
 end
 NotOverlap do
-  lecture 37, 38, 39, 
+  lecture 37, 38, 39
 end
 NotOverlap do
-  lecture 145, 146, 
+  lecture 145, 146
 end
 NotOverlap do
-  lecture 40, 48, 44, 49, 41, 45, 50, 46, 42, 51, 43, 47, 
+  lecture 40, 48, 44, 49, 41, 45, 50, 46, 42, 51, 43, 47
 end
 NotOverlap do
-  lecture 143, 144, 
+  lecture 143, 144
 end
 NotOverlap do
-  lecture 149, 150, 147, 148, 
+  lecture 149, 150, 147, 148
 end
 NotOverlap do
-  lecture 105, 106, 99, 103, 104, 107, 100, 102, 108, 101, 
+  lecture 105, 106, 99, 103, 104, 107, 100, 102, 108, 101
 end
 NotOverlap do
-  lecture 52, 53, 54, 
+  lecture 52, 53, 54
 end
 NotOverlap do
-  lecture 110, 111, 112, 
+  lecture 110, 111, 112
 end
 NotOverlap do
-  lecture 59, 55, 60, 61, 63, 62, 56, 57, 58, 64, 65, 66, 
+  lecture 59, 55, 60, 61, 63, 62, 56, 57, 58, 64, 65, 66
 end
 NotOverlap do
-  lecture 3, 4, 5, 
+  lecture 3, 4, 5
 end
 NotOverlap do
-  lecture 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 
+  lecture 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27
 end
 NotOverlap do
-  lecture 113, 114, 
+  lecture 113, 114
 end
 NotOverlap do
-  lecture 117, 118, 115, 116, 
+  lecture 117, 118, 115, 116
 end
 NotOverlap do
-  lecture 119, 120, 
+  lecture 119, 120
 end
 NotOverlap do
-  lecture 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 
+  lecture 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16
 end
 NotOverlap do
-  lecture 72, 73, 76, 75, 68, 74, 70, 67, 77, 78, 71, 69, 
+  lecture 72, 73, 76, 75, 68, 74, 70, 67, 77, 78, 71, 69
 end
 NotOverlap do
-  lecture 123, 124, 125, 
+  lecture 123, 124, 125
 end
 NotOverlap do
-  lecture 132, 130, 133, 134, 131, 
+  lecture 132, 130, 133, 134, 131
 end
 NotOverlap do
-  lecture 28, 29, 30, 
+  lecture 28, 29, 30
 end
 NotOverlap do
-  lecture 79, 80, 81, 82, 83, 84, 85, 86, 87, 
+  lecture 79, 80, 81, 82, 83, 84, 85, 86, 87
 end
 NotOverlap do
-  lecture 128, 129, 
+  lecture 128, 129
 end

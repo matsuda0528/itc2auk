@@ -12,7 +12,7 @@ class Constraint
     end
     <<~EOS
     #{@type} do
-      lecture #{lecture_text}
+      lecture #{lecture_text.chop.chop}
     end
     EOS
   end
