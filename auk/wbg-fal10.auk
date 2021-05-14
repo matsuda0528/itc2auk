@@ -1,30 +1,37 @@
 room '1' do
+  capacity 1
   
 end
 room '2' do
+  capacity 1
   
 end
 room '3' do
-  unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
-unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
+  capacity 2
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
 end
 room '4' do
-  unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
+  capacity 1
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
 end
 room '5' do
+  capacity 1
   
 end
 room '6' do
-  unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
+  capacity 4
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
 end
 room '7' do
-  unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
-unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
-unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
-unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
-unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
-unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
-unavailable start_time: YYYY/MM/DD HH:MM:SS, end_time: YYYY/MM/DD HH:MM:SS
+  capacity 2
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
+  unavailable start_time: YYYY/MM/DD HH:MM, end_time: YYYY/MM/DD HH:MM
 end
 lecture '1' do
   room 6, 7, 3, 
@@ -32,63 +39,63 @@ lecture '1' do
 end
 lecture '2' do
   room 6, 
-  period Mon1: Mon9, Tue1: Tue9, Wed1: Wed9, Thu1: Thu9, Fri1: Fri9
+  period Mon1: Fri9
 end
 lecture '3' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '4' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '5' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '6' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '7' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '8' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '9' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '10' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '11' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '12' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '13' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '14' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '15' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '16' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '17' do
   room 1, 
@@ -136,23 +143,23 @@ lecture '27' do
 end
 lecture '28' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '29' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '30' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '31' do
   room 6, 7, 3, 
-  period Mon2: Mon10, Tue2: Tue10, Wed2: Wed10, Thu2: Thu10, Fri2: Fri9
+  period Mon2:: Thu10,  Fri2: Fri9
 end
 lecture '32' do
   room 6, 7, 3, 
-  period Mon2: Mon10, Tue2: Tue10, Wed2: Wed10, Thu2: Thu10, Fri2: Fri9
+  period Mon2:: Thu10,  Fri2: Fri9
 end
 lecture '33' do
   room 2, 
@@ -184,63 +191,63 @@ lecture '39' do
 end
 lecture '40' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '41' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '42' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '43' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '44' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '45' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '46' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '47' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '48' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '49' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '50' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '51' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '52' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '53' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '54' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '55' do
   room 6, 7, 3, 4, 5, 1, 2, 
@@ -292,51 +299,51 @@ lecture '66' do
 end
 lecture '67' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '68' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '69' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '70' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '71' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '72' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '73' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '74' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '75' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '76' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '77' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '78' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '79' do
   room 6, 7, 3, 4, 
@@ -420,47 +427,47 @@ lecture '98' do
 end
 lecture '99' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '100' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '101' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '102' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '103' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '104' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '105' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '106' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '107' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '108' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '109' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '110' do
   room 2, 
@@ -484,19 +491,19 @@ lecture '114' do
 end
 lecture '115' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '116' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '117' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '118' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '119' do
   room 6, 7, 3, 
@@ -512,7 +519,7 @@ lecture '121' do
 end
 lecture '122' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '123' do
   room 1, 
@@ -528,7 +535,7 @@ lecture '125' do
 end
 lecture '126' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '127' do
   room 6, 7, 3, 
@@ -536,31 +543,31 @@ lecture '127' do
 end
 lecture '128' do
   room 6, 7, 3, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '129' do
   room 6, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '130' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '131' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '132' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '133' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '134' do
   room 6, 7, 3, 4, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '135' do
   room 2, 
@@ -612,19 +619,19 @@ lecture '146' do
 end
 lecture '147' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '148' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '149' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 lecture '150' do
   room 2, 
-  period Mon1: Mon10, Tue1: Tue10, Wed1: Wed10, Thu1: Thu10, Fri1: Fri10
+  period Mon1: Fri10
 end
 SameAttendees do
   lecture 1, 31, 32, 37, 38, 39

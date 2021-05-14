@@ -7,11 +7,11 @@ class Time
   end
 
   def start_time
-    "YYYY/MM/DD HH:MM:SS"
+    "YYYY/MM/DD HH:MM"
   end
 
   def end_time
-    "YYYY/MM/DD HH:MM:SS"
+    "YYYY/MM/DD HH:MM"
   end
 
   def to_s

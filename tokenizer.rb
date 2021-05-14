@@ -14,5 +14,4 @@ when '.xml'
   doc = XmlSimple.xml_in(src).to_s
   tokenized_src = Ripper.tokenize(doc).select{|e| e =~ /[^\s\[\]\{\}]/ && e != ',' && e != "\""}
 end
-
-puts "Token: #{tokenized_src.size}"
+puts "Number of Tokens: #{tokenized_src.size}"

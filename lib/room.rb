@@ -9,7 +9,8 @@ class Room
   def to_s
     <<~"EOS"
     room '#{@id}' do
-      #{@unavailable&.reduce{|result, i| result.to_s + "\n" + i.to_s}}
+      capacity #{@capacity}
+      #{@unavailable&.reduce{|result, i| result.to_s + "\n  " + i.to_s}}
     end
     EOS
   end

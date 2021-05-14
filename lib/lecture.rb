@@ -30,7 +30,7 @@ class Lecture
 
 
   def optimized_period
-    tmp = {Mon: 1, Tue: 2, Wed: 3, Thu: 4, Fri: 5}
+    tmp = {Mon: 0, Tue: 1, Wed: 2, Thu: 3, Fri: 4}
     period_text = ""
     tmp_arr = []
     last_period = ""
@@ -47,16 +47,19 @@ class Lecture
     end
     period_text += "#{tmp_arr.first.first}: #{tmp_arr.last.last}" if !tmp_arr.empty?
     period_text += "#{last_period}" if !period_text.include? last_period
-    return period_text #ここまでで縦の最適化完了
+    # return period_text #ここまでで縦の最適化完了
+    # binding.pry
 
+    # begin
     tmp_arr = []
     period_text_neo = ""
     last_periods = ""
     period_text.split(',').each_cons(2) do |current_periods, next_periods|
-    binding.pry
       curp1, curp2 = current_periods.split(' ').compact
       nexp1, nexp2 = next_periods.split(' ').compact
-      if(tmp[nexp1.slice(0..2).to_sym] - tmp[curp1.slice(0..2).to_sym] == 1 && tmp[nexp2.slice(0..2).to_sym] - tmp[curp2.slice(0..2).to_sym] && curp1.slice(3..-1) == nexp1.slice(3..-1) && curp2.slice(3..-1) == nexp2.slice(3..-1))
+      if( curp2 == nil || nexp2 == nil )
+        period_text_neo += "#{current_periods},"
+      elsif(tmp[nexp1.slice(0..2).to_sym] - tmp[curp1.slice(0..2).to_sym] == 1 && tmp[nexp2.slice(0..2).to_sym] - tmp[curp2.slice(0..2).to_sym] && curp1.slice(3..-1) == nexp1.slice(3..-1) && curp2.slice(3..-1) == nexp2.slice(3..-1))
         tmp_arr.append [curp1, curp2, nexp1, nexp2]
       elsif !tmp_arr.empty?
         period_text_neo += "#{tmp_arr.first.first}: #{tmp_arr.last.last}, "
@@ -66,8 +69,21 @@ class Lecture
       end
       last_periods = next_periods
     end
-    period_text_neo += "#{tmp_arr.first.first}: #{tmp_arr.last.last}" if !tmp_arr.empty?
-    period_text_neo += "#{last_periods}" if !period_text_neo.include? last_periods
-    period_text_neo
+    if !tmp_arr.empty?
+      period_text_neo += "#{tmp_arr.first.first} #{tmp_arr.last.last}" 
+    elsif !period_text_neo.include? last_periods
+      period_text_neo += "#{last_periods}" 
+    end
+    period_text_neo # 横の最適化は不十分であるが，妥協点
+    # rescue
+    #   binding.pry
+    # end
+    # wday = [[],[],[],[],[]]
+    # tmp_arr = []
+    # period_text.split(',').each do |e|
+    #   wday[e.slice(0..2).to_sym].append e
+    # end
+    # wday.each_cons(2) do |current_day, next_day|
+    # end
   end
 end
